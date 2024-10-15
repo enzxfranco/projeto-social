@@ -1,0 +1,79 @@
+@charset "UTF-8";
+
+* {
+  margin: 0px;
+  padding: 0px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+::-webkit-scrollbar {
+  width: 0px;
+  height: 0px;
+}
+
+img {
+  width: 100vw;
+  margin: 0px;
+}
+
+a.youtube {
+  display: block;
+  background-color: darkred;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.github {
+  display: block;
+  background-color: darkgreen;
+  color: white;
+  padding: 20px;
+  margin: 0px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.instagram {
+  display: block;
+  background-image: linear-gradient(
+    to right,
+    #ba00b2,
+    #de0043,
+    #eb001c,
+    #f85b11,
+    #fcaa1b,
+    #ffd220
+  );
+  color: white;
+  padding: 20px;
+  text-align: center;
+  font-weight: bolder;
+  text-decoration: none;
+}
+
+a.twitterefacebook {
+    display: block;
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    margin: 0px;
+    text-align: center;
+    font-weight: bolder;
+    text-decoration: none;
+}
+
+a.youtube:hover {
+  background-color: red;
+}
+
+a.github:hover {
+  background-color: green;
+}
+
+a.twitterefacebook:hover {
+    background-color: rgb(0, 174, 255);
+}
